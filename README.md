@@ -65,6 +65,7 @@ python3.8 ile bir venv kurulur ve aktive edilir. sonra aşağıdaki kod çalış
 pip install -r requirements.txt
 sonra postgresqli pcmize kurup 
 postgresql://postgres:Moneytolia123@localhost:5432/url_shortener
+daha sonra url_shortener.py dosyasının 17. satırısını commen in yapıp 19. satırını comment out yapmamız lazım.
 bu config ile ayağa kaldırmamız gerek.
 dbname:url_shortener
 username:postgres
